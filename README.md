@@ -6,6 +6,6 @@ There are 2 ways to use this Application.
 
 Libraries used:
     
-    1.Twilio
+    1.Twilio (third party)
     2.DateTime
     3.Pickle
