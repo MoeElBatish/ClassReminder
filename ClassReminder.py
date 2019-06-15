@@ -14,7 +14,7 @@ class Subject:
     def changeTime(self, time):
         self.time = time
     def changeDay(self, day):
-        self.day = day
+        self.day = day2
     def changeLocation(self, location):
         self.location = location
     # Getters for the attributes
@@ -27,7 +27,7 @@ class Subject:
     def showLocation(self):
         return self.location
     def structuredMessage(self):
-        return("Class: "+ self.Class +
+        return("\nClass: "+ self.Class +
                "\nTime: " + self.time +
                "\nLocation: " + self.location)
 # This makes sure that when this python script is inherited, it doesn't run this part
@@ -58,7 +58,7 @@ if __name__ == "__main__":
             flag = True
             while flag:
                 try:
-                    day = int(input("Day of the week in this formet(Monday = 0 --- Sunday = 7)"))
+                    day = int(input("Day of the week in this format(Monday = 0 --- Sunday = 6)"))
                     if (day>= 0 and day<=8):
                         flag = False
                 except ValueError:
