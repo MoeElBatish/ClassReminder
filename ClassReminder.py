@@ -26,6 +26,10 @@ class Subject:
         return self.day
     def showLocation(self):
         return self.location
+    def structuredMessage(self):
+        return("Class: "+ self.Class +
+               "\nTime: " + self.time +
+               "\nLocation: " + self.location)
 # This makes sure that when this python script is inherited, it doesn't run this part
 if __name__ == "__main__":
     # saveData function saves the subjects using pickle in a .dat file
