@@ -6,6 +6,8 @@ There are 2 ways to use this Application.
 
 Make sure that you have ClassReminder.py and TextReminder.py in the same folder. These are the only two python scrips that are needed to make this run.
 
+To run this program, you will need to run ClassReminder.py once and once only, unless your schedule changes. After that run the TextReminder.py every 24h via Cron (it does it automatically) 
+
 You will need to subscribe to Twilio after your trial is over. However the trial lasts quite a bit.
 If you have any suggestions please let me know.
 
